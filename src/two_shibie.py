@@ -1,8 +1,8 @@
 from aip import AipSpeech
 
-APP_ID = '25233505'
-API_KEY = 'm8wVLmUw7GleBNO3AqwlaELr'
-SECRET_KEY = 'iFFhWbdlj1GcNA6XHGRfuY9cybkzByUO'
+APP_ID = 'your ID'
+API_KEY = 'your KEY'
+SECRET_KEY = 'your KEY'
 
 client = AipSpeech(APP_ID, API_KEY, SECRET_KEY)
 
