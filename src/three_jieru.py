@@ -1,7 +1,7 @@
 import requests
 import json
 
-TURING_KEY = "a6acbf8db37b409f960d16ca1cea658f"  # 这里输入你的机器人Apikey
+TURING_KEY = "your TURING_KEY"  # 这里输入你的机器人Apikey
 URL = "http://openapi.tuling123.com/openapi/api/v2"
 HEADERS = {'Content-Type': 'application/json;charset=UTF-8'}
 
@@ -21,7 +21,7 @@ def robot(text=""):
             }
         },
         "userInfo": {
-            "apiKey": 'a6acbf8db37b409f960d16ca1cea658f',  # 这里输入你的机器人Apikey
+            "apiKey": 'your apiKey',  # 这里输入你的机器人Apikey
             "userId": "123"
         }
     }
